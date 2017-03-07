@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: aquamarine;
+}
+
+.bear-panel {
+  border: solid 3px deeppink;
+  width: 33.3333%;
+  padding: 10px;
+  color: darkturquoise;
+}
+
+.bear-flex {
+  display: flex;
+  flex-wrap: wrap;
+}

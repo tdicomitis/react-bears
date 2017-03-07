@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "babel-node server.js",
+    "client": "babel-node start-client.js"
   },
   "repository": {
     "type": "git",
